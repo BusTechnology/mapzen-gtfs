@@ -1,6 +1,6 @@
 # Mapzen GTFS
 
-[![Circle CI](https://circleci.com/gh/transitland/mapzen-gtfs.png?style=badge)](https://circleci.com/gh/transitland/mapzen-gtfs)
+[![CircleCI](https://circleci.com/gh/BusTechnology/mapzen-gtfs.svg?style=svg)](https://circleci.com/gh/BusTechnology/mapzen-gtfs)
 
 A simple GTFS library.
 
