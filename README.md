@@ -20,6 +20,11 @@ Installation using pip:
 pip install mzgtfs
 ```
 
+To install this fork using the pypy interpreter:
+```
+pypy -mpip install git+https://github.com/BusTechnology/mapzen-gtfs.git
+```
+
 Alternatively, [download from PyPi](https://pypi.python.org/pypi/mzgtfs) or clone this repository, and install using setup.py:
 
 ```
