@@ -100,6 +100,8 @@ set([<Stop EMSI>, <Stop DADAN>, <Stop NANAA>, <Stop NADAV>, <Stop STAGECOACH>])
 
 Each of the access methods in the above table will read the CSV file and cache the resulting entities. If you want to read a table line-by-line with lower overhead, you can use `iterread(table)`. This is especially useful with stop_times.txt, which may have millions of rows.
 
+NOTE: you will not be able to modify entities with this method.
+
 ```
 >>> gtfs_feed.iterread('routes')
 <generator object iterread at 0x101cd86e0>
